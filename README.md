@@ -53,6 +53,15 @@ You'll need to add some variables to define the number of read and write capacit
 }
 ```
 
+### Other Settings
+Some other settings I'm not sure about yet. Potentially also needed to be in `_meta/variables/s-variables-<stage>-<region>.json` file
+```
+{
+    ...,
+    "iotEndpoint":""
+}
+```
+
 ## Deployment
 
 ### Uglify-JS Errors
