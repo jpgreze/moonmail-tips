@@ -26,6 +26,23 @@ npm install nodent --save
 npm install js-beautify --save
 ```
 
+## Installation
+Once you've got things setup, install the npm packages:
+```
+npm install
+cd events/
+npm install
+cd ../api/
+npm install
+```
+
+## Initialization
+Once npm has does the install, initialize the project
+```
+sls project init -c -n <your-lower-case-project-name>
+```
+Only alphabet or hyphens in the name.
+
 ## Configuration
 
 ### S3 Bucket Settings
@@ -34,6 +51,15 @@ S3 buckets are global, so be sure to edit the `___.json` file to add in unique b
 {
     ...,
     ...
+}
+```
+
+### API Host
+Add the api host to `s-variables-<stage>-<region>`:
+```
+{
+    ...,
+    "apiHost": "yourendpointhost.com"
 }
 ```
 
