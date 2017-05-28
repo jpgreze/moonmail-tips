@@ -48,11 +48,13 @@ Only alphabet or hyphens in the name.
 ## Configuration
 
 ### S3 Bucket Settings
-S3 buckets are global, so be sure to edit the `___.json` file to add in unique bucket names
+S3 buckets are global, so be sure to edit the `s-templates.json` file to add in unique bucket names
 ```
 {
     ...,
-    ...
+    "staticDataBucket": "<unique-prefix>.static.moonmail.${stage}.${region}",
+    "recipientsImportBucket": "<unique-prefix>.recipients.moonmail.${stage}.${region}",
+    "listsExportBucket": "<unique-prefix>.list-exports.moonmail.${stage}.${region}",
 }
 ```
 
