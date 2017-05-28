@@ -1,5 +1,5 @@
 # MoonMail Tips
-When using [MoonMail](https://github.com/microapps/MoonMail), the documentation had some gaps. Below are some tips to help get to the next step.
+When using [MoonMail](https://github.com/microapps/MoonMail), the documentation had some gaps. Below is a walk-thru with some tips to help get to the next step.
 
 ## Help
 * MoonMail Wiki: https://github.com/microapps/MoonMail/wiki
