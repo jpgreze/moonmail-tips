@@ -27,6 +27,15 @@ npm install js-beautify --save
 
 ## Configuration
 
+### S3 Bucket Settings
+S3 buckets are global, so be sure to edit the `___.json` file to add in unique bucket names
+```
+{
+    ...,
+    ...
+}
+```
+
 ### DynamoDB Settings
 You'll need to add some variables to define the number of read and write capacity units for the DynamoDB tables and indexes. Add these to your `_meta/variables/s-variables-<stage>-<region>.json` file
 ```
