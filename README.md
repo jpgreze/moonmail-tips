@@ -36,6 +36,18 @@ S3 buckets are global, so be sure to edit the `___.json` file to add in unique b
 }
 ```
 
+### Default Settings
+Be sure to add these to your `_meta/variables/s-variables-<stage>-<region>.json` file
+```
+{
+    ...,
+    "defaultApiKey": "api-key", 
+    "defaultApiSecret": "api-secret", 
+    "defaultRegion": "default-region",
+    "defaultEmailAddress": "email-address"
+}
+```
+
 ### DynamoDB Settings
 You'll need to add some variables to define the number of read and write capacity units for the DynamoDB tables and indexes. Add these to your `_meta/variables/s-variables-<stage>-<region>.json` file
 ```
@@ -62,13 +74,44 @@ You'll need to add some variables to define the number of read and write capacit
 }
 ```
 
-### Other Settings
-Some other settings I'm not sure about yet. Potentially also needed to be in `_meta/variables/s-variables-<stage>-<region>.json` file
+### Ignore These
+Apparently the below can be ignored. The variables are set when running `serverless resources deploy`. 
 ```
-{
-    ...,
-    "iotEndpoint":""
-}
+Serverless: WARNING: This Variable is not defined: updateCampaignTopicARN
+Serverless: WARNING: This Variable is not defined: attachRecipientsCountTopicARN
+Serverless: WARNING: This Variable is not defined: precompileCampaignTopicARN
+Serverless: WARNING: This Variable is not defined: opensStreamName
+Serverless: WARNING: This Variable is not defined: clicksStreamName
+Serverless: WARNING: This Variable is not defined: unsubscribedRecipientTopicARN
+Serverless: WARNING: This Variable is not defined: unsubscribedCallbackUrl
+Serverless: WARNING: This Variable is not defined: attachRecipientsCountTopicARN
+Serverless: WARNING: This Variable is not defined: updateCampaignTopicARN
+Serverless: WARNING: This Variable is not defined: clicksStreamARN
+Serverless: WARNING: This Variable is not defined: attachRecipientsTopicARN
+Serverless: WARNING: This Variable is not defined: updateCampaignTopicARN
+Serverless: WARNING: This Variable is not defined: precompileEmailTopicARN
+Serverless: WARNING: This Variable is not defined: attachListRecipientsTopicARN
+Serverless: WARNING: This Variable is not defined: sendEmailsTopicARN
+Serverless: WARNING: This Variable is not defined: updateCampaignTopicARN
+Serverless: WARNING: This Variable is not defined: attachSenderTopicARN
+Serverless: WARNING: This Variable is not defined: recipientsImportS3BucketName
+Serverless: WARNING: This Variable is not defined: updateListImportStatusTopicARN
+Serverless: WARNING: This Variable is not defined: recipientsTableStreamARN
+Serverless: WARNING: This Variable is not defined: sentEmailsTopicARN
+Serverless: WARNING: This Variable is not defined: clicksStreamARN
+Serverless: WARNING: This Variable is not defined: opensStreamARN
+Serverless: WARNING: This Variable is not defined: sentEmailsTableStreamARN
+Serverless: WARNING: This Variable is not defined: sendCampaignTopicARN
+Serverless: WARNING: This Variable is not defined: sendEmailsTopicARN
+Serverless: WARNING: This Variable is not defined: sentEmailsTopicARN
+```
+
+### Other Settings
+Some other settings I'm not sure about yet so am ignoring for now. 
+```
+    "iotEndpoint"
+    "redisEndpointAddress"
+    "redisPassword"
 ```
 
 ## Deployment
