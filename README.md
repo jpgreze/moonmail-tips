@@ -29,6 +29,8 @@ npm install js-beautify --save
 ## Installation
 Once you've got things setup, install the npm packages:
 ```
+sls install -u https://github.com/microapps/MoonMail
+cd MoonMail
 npm install
 cd events/
 npm install
