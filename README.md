@@ -114,6 +114,8 @@ Some other settings I'm not sure about yet so am ignoring for now.
     "redisEndpointAddress"
     "redisPassword"
     "unsubscribedCallbackUrl"
+    "beeEditorClientId"
+    "beeEditorClientSecret"
 ```
 
 ## Deployment
