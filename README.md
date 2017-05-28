@@ -2,6 +2,7 @@
 When using [MoonMail](https://github.com/microapps/MoonMail), the documentation had some gaps. Below are some tips to help get to the next step.
 
 ## Help
+* MoonMail Wiki: https://github.com/microapps/MoonMail/wiki
 * StackOverflow: http://stackoverflow.com/questions/tagged/moonmail?sort=votes&pageSize=50
 * Gitter: https://gitter.im/microapps/MoonMail
 
