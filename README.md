@@ -14,3 +14,6 @@ MoonMail uses node-gyp, which only runs in Python 2.7. If you have 3.5 installed
 ## Help
 * StackOverflow: http://stackoverflow.com/questions/tagged/moonmail?sort=votes&pageSize=50
 * Gitter: https://gitter.im/microapps/MoonMail
+
+## Uglify Errors
+It appears you can ignore them if the deployment succeeds.
