@@ -146,5 +146,30 @@ Some other settings I'm not sure about yet so am ignoring for now.
 
 ## Deployment
 
-### Uglify-JS Errors
+### Resource Deployment
+Create all the needed resources in your AWS account:
+```
+sls resources deploy
+```
+
+### Lambda Deployment
+Deploy all the Lambda functions:
+```
+sls function deploy
+```
+This process takes a surprising long time to execute so be patient.
+
+#### Uglify-JS Errors
 It appears you can ignore them if the deployment succeeds.
+
+### Event Deployment
+Deploy MoonMail events:
+```
+sls event deploy
+```
+
+### API Gateway Deployment
+Create the API Gateway endpoints:
+```
+sls endpoint deploy
+```
