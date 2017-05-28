@@ -12,5 +12,5 @@ npm install -g serverless@0.5.6
 MoonMail uses node-gyp, which only runs in Python 2.7. If you have 3.5 installed and first on the path, then it won't work.
 
 ## Help
-StackOverflow: http://stackoverflow.com/questions/tagged/moonmail?sort=votes&pageSize=50
-Gitter: https://gitter.im/microapps/MoonMail
+* StackOverflow: http://stackoverflow.com/questions/tagged/moonmail?sort=votes&pageSize=50
+* Gitter: https://gitter.im/microapps/MoonMail
