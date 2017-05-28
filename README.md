@@ -142,6 +142,7 @@ Some other settings I'm not sure about yet so am ignoring for now.
 ```
     "iotEndpoint"
     "redisEndpointAddress"
+    "redisEndpointPort"
     "redisPassword"
     "unsubscribedCallbackUrl"
     "beeEditorClientId"
