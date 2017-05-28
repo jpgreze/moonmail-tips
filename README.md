@@ -112,6 +112,7 @@ Some other settings I'm not sure about yet so am ignoring for now.
     "iotEndpoint"
     "redisEndpointAddress"
     "redisPassword"
+    "unsubscribedCallbackUrl"
 ```
 
 ## Deployment
