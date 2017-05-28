@@ -28,7 +28,7 @@ npm install js-beautify --save
 ## Configuration
 
 ### DynamoDB Settings
-You'll need to add some variables to define the number of read and write capacity units for the DynamoDB tables and indexes. Add these to your _meta/variables/s-variables-<stage>-<region>.json file
+You'll need to add some variables to define the number of read and write capacity units for the DynamoDB tables and indexes. Add these to your `_meta/variables/s-variables-<stage>-<region>.json` file
 ```
 {
     ...,
