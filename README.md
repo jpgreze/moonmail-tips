@@ -165,7 +165,7 @@ sls function deploy
 This process takes a surprising long time to execute so be patient.
 
 ##### Uglify-JS Errors
-It appears you can ignore uglify-js syntax errors, such as the following, so long as the serverless deployment succeeds.
+It appears you can ignore uglify-js syntax errors, such as the following or [this one on SO](https://stackoverflow.com/questions/41618989/moonmail-deploy-function-uglify-js-errors), so long as the serverless deployment succeeds.
 ```
 Serverless: \ uglify-js failed on _meta/_tmp/emailNotification@1496064677543/node_modules/topo/lib/index.js : SyntaxError: Invalid assignment
 uglify-js failed on _meta/_tmp/emailNotification@1496064677543/node_modules/isemail/lib/index.js : SyntaxError: Unexpected token name «i», expected punc «;»
